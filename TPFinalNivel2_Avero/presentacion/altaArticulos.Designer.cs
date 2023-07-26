@@ -52,16 +52,16 @@
             // lblCodigo
             // 
             this.lblCodigo.AutoSize = true;
-            this.lblCodigo.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F);
+            this.lblCodigo.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F);
             this.lblCodigo.Location = new System.Drawing.Point(18, 57);
             this.lblCodigo.Name = "lblCodigo";
-            this.lblCodigo.Size = new System.Drawing.Size(51, 16);
+            this.lblCodigo.Size = new System.Drawing.Size(56, 18);
             this.lblCodigo.TabIndex = 0;
             this.lblCodigo.Text = "Codigo";
             // 
             // btnAgregar
             // 
-            this.btnAgregar.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F);
+            this.btnAgregar.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F);
             this.btnAgregar.Location = new System.Drawing.Point(22, 459);
             this.btnAgregar.Name = "btnAgregar";
             this.btnAgregar.Size = new System.Drawing.Size(75, 32);
@@ -83,56 +83,56 @@
             // lblNombre
             // 
             this.lblNombre.AutoSize = true;
-            this.lblNombre.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F);
+            this.lblNombre.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F);
             this.lblNombre.Location = new System.Drawing.Point(18, 108);
             this.lblNombre.Name = "lblNombre";
-            this.lblNombre.Size = new System.Drawing.Size(56, 16);
+            this.lblNombre.Size = new System.Drawing.Size(62, 18);
             this.lblNombre.TabIndex = 3;
             this.lblNombre.Text = "Nombre";
             // 
             // lblDescripcion
             // 
             this.lblDescripcion.AutoSize = true;
-            this.lblDescripcion.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F);
+            this.lblDescripcion.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F);
             this.lblDescripcion.Location = new System.Drawing.Point(18, 154);
             this.lblDescripcion.Name = "lblDescripcion";
-            this.lblDescripcion.Size = new System.Drawing.Size(79, 16);
+            this.lblDescripcion.Size = new System.Drawing.Size(87, 18);
             this.lblDescripcion.TabIndex = 4;
             this.lblDescripcion.Text = "Descripcion";
             // 
             // lblMarca
             // 
             this.lblMarca.AutoSize = true;
-            this.lblMarca.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F);
+            this.lblMarca.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F);
             this.lblMarca.Location = new System.Drawing.Point(18, 200);
             this.lblMarca.Name = "lblMarca";
-            this.lblMarca.Size = new System.Drawing.Size(45, 16);
+            this.lblMarca.Size = new System.Drawing.Size(50, 18);
             this.lblMarca.TabIndex = 5;
             this.lblMarca.Text = "Marca";
             // 
             // lblCategoria
             // 
             this.lblCategoria.AutoSize = true;
-            this.lblCategoria.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F);
+            this.lblCategoria.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F);
             this.lblCategoria.Location = new System.Drawing.Point(18, 245);
             this.lblCategoria.Name = "lblCategoria";
-            this.lblCategoria.Size = new System.Drawing.Size(66, 16);
+            this.lblCategoria.Size = new System.Drawing.Size(72, 18);
             this.lblCategoria.TabIndex = 6;
             this.lblCategoria.Text = "Categoria";
             // 
             // lblImagenUrl
             // 
             this.lblImagenUrl.AutoSize = true;
-            this.lblImagenUrl.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F);
+            this.lblImagenUrl.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F);
             this.lblImagenUrl.Location = new System.Drawing.Point(17, 335);
             this.lblImagenUrl.Name = "lblImagenUrl";
-            this.lblImagenUrl.Size = new System.Drawing.Size(104, 16);
+            this.lblImagenUrl.Size = new System.Drawing.Size(111, 18);
             this.lblImagenUrl.TabIndex = 7;
             this.lblImagenUrl.Text = "Agregar Imagen";
             // 
             // btnCancelar
             // 
-            this.btnCancelar.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F);
+            this.btnCancelar.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F);
             this.btnCancelar.Location = new System.Drawing.Point(602, 459);
             this.btnCancelar.Name = "btnCancelar";
             this.btnCancelar.Size = new System.Drawing.Size(75, 32);
@@ -194,15 +194,16 @@
             // lblPrecio
             // 
             this.lblPrecio.AutoSize = true;
-            this.lblPrecio.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F);
+            this.lblPrecio.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F);
             this.lblPrecio.Location = new System.Drawing.Point(18, 291);
             this.lblPrecio.Name = "lblPrecio";
-            this.lblPrecio.Size = new System.Drawing.Size(46, 16);
+            this.lblPrecio.Size = new System.Drawing.Size(51, 18);
             this.lblPrecio.TabIndex = 15;
             this.lblPrecio.Text = "Precio";
             // 
             // pbxArticulo
             // 
+            this.pbxArticulo.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.pbxArticulo.Location = new System.Drawing.Point(297, 28);
             this.pbxArticulo.Name = "pbxArticulo";
             this.pbxArticulo.Size = new System.Drawing.Size(410, 380);
@@ -212,7 +213,7 @@
             // 
             // btnExaminar
             // 
-            this.btnExaminar.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F);
+            this.btnExaminar.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F);
             this.btnExaminar.Location = new System.Drawing.Point(185, 358);
             this.btnExaminar.Name = "btnExaminar";
             this.btnExaminar.Size = new System.Drawing.Size(75, 23);
@@ -225,7 +226,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.SystemColors.InactiveCaption;
+            this.BackColor = System.Drawing.Color.LightGray;
             this.ClientSize = new System.Drawing.Size(731, 540);
             this.Controls.Add(this.btnExaminar);
             this.Controls.Add(this.pbxArticulo);

@@ -22,12 +22,27 @@ namespace presentacion
 
         private void Menu_Load(object sender, EventArgs e)
         {
+            ArticuloNegocio negocio = new ArticuloNegocio();
             cargarDgv();
             cbxCampo.Items.Add("Codigo");
             cbxCampo.Items.Add("Nombre");
             cbxCampo.Items.Add("Descripción");
             cbxCampo.Items.Add("Precio");
-            
+
+            try
+            {
+                listaArticulos = negocio.listar();
+                lblCodigo2.Text = listaArticulos[0].CodigoArticulo;
+                lblDescripcion2.Text = listaArticulos[0].Descripcion;
+                lblNombre2.Text = listaArticulos[0].Nombre;
+                lblPrecio2.Text = listaArticulos[0].Precio.ToString("0.00");
+                lblMarca2.Text = listaArticulos[0].Marca.Descripcion;
+            }
+            catch (Exception ex)
+            {
+                throw ex;
+            }
+
         }
 
         private void cargarDgv()
@@ -57,10 +72,18 @@ namespace presentacion
 
         private void dgvArticulos_SelectionChanged(object sender, EventArgs e)
         {
+            ArticuloNegocio negocio = new ArticuloNegocio(); 
             if (dgvArticulos.CurrentRow != null) 
             {
                 Articulo seleccionado = (Articulo)dgvArticulos.CurrentRow.DataBoundItem;
                 cargarImagen(seleccionado.ImagenUrl);
+
+
+               lblCodigo2.Text = seleccionado.CodigoArticulo;
+               lblDescripcion2.Text = seleccionado.Descripcion;
+               lblNombre2.Text = seleccionado.Nombre;
+               lblPrecio2.Text = seleccionado.Precio.ToString("0.00");
+               lblMarca2.Text = seleccionado.Marca.Descripcion;
             }
         }
 
@@ -282,6 +305,11 @@ namespace presentacion
             {
                 MessageBox.Show(ex.ToString());
             }
+        }
+
+        private void groupBox1_Enter(object sender, EventArgs e)
+        {
+
         }
     }
 }

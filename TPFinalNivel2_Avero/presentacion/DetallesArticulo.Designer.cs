@@ -52,7 +52,7 @@
             // 
             // btnVolver
             // 
-            this.btnVolver.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F);
+            this.btnVolver.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnVolver.Location = new System.Drawing.Point(35, 460);
             this.btnVolver.Name = "btnVolver";
             this.btnVolver.Size = new System.Drawing.Size(75, 23);
@@ -63,166 +63,166 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F);
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.Location = new System.Drawing.Point(32, 32);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(123, 16);
+            this.label1.Size = new System.Drawing.Size(143, 16);
             this.label1.TabIndex = 1;
             this.label1.Text = "Detalles de Artículo";
             // 
             // lblCodigo
             // 
             this.lblCodigo.AutoSize = true;
-            this.lblCodigo.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F);
+            this.lblCodigo.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblCodigo.Location = new System.Drawing.Point(32, 115);
             this.lblCodigo.Name = "lblCodigo";
-            this.lblCodigo.Size = new System.Drawing.Size(54, 16);
+            this.lblCodigo.Size = new System.Drawing.Size(60, 18);
             this.lblCodigo.TabIndex = 2;
             this.lblCodigo.Text = "Codigo:";
             // 
             // lblId
             // 
             this.lblId.AutoSize = true;
-            this.lblId.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F);
+            this.lblId.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblId.Location = new System.Drawing.Point(32, 73);
             this.lblId.Name = "lblId";
-            this.lblId.Size = new System.Drawing.Size(21, 16);
+            this.lblId.Size = new System.Drawing.Size(23, 18);
             this.lblId.TabIndex = 3;
             this.lblId.Text = "Id:";
             // 
             // lblNombre
             // 
             this.lblNombre.AutoSize = true;
-            this.lblNombre.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F);
+            this.lblNombre.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblNombre.Location = new System.Drawing.Point(32, 158);
             this.lblNombre.Name = "lblNombre";
-            this.lblNombre.Size = new System.Drawing.Size(59, 16);
+            this.lblNombre.Size = new System.Drawing.Size(66, 18);
             this.lblNombre.TabIndex = 4;
             this.lblNombre.Text = "Nombre:";
             // 
             // lblDescripcion
             // 
             this.lblDescripcion.AutoSize = true;
-            this.lblDescripcion.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F);
+            this.lblDescripcion.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblDescripcion.Location = new System.Drawing.Point(32, 199);
             this.lblDescripcion.Name = "lblDescripcion";
-            this.lblDescripcion.Size = new System.Drawing.Size(82, 16);
+            this.lblDescripcion.Size = new System.Drawing.Size(91, 18);
             this.lblDescripcion.TabIndex = 5;
             this.lblDescripcion.Text = "Descripción:";
             // 
             // lblMarca
             // 
             this.lblMarca.AutoSize = true;
-            this.lblMarca.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F);
+            this.lblMarca.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblMarca.Location = new System.Drawing.Point(32, 241);
             this.lblMarca.Name = "lblMarca";
-            this.lblMarca.Size = new System.Drawing.Size(48, 16);
+            this.lblMarca.Size = new System.Drawing.Size(54, 18);
             this.lblMarca.TabIndex = 6;
             this.lblMarca.Text = "Marca:";
             // 
             // lblCategoria
             // 
             this.lblCategoria.AutoSize = true;
-            this.lblCategoria.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F);
-            this.lblCategoria.Location = new System.Drawing.Point(32, 278);
+            this.lblCategoria.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblCategoria.Location = new System.Drawing.Point(32, 287);
             this.lblCategoria.Name = "lblCategoria";
-            this.lblCategoria.Size = new System.Drawing.Size(69, 16);
+            this.lblCategoria.Size = new System.Drawing.Size(76, 18);
             this.lblCategoria.TabIndex = 7;
             this.lblCategoria.Text = "Categoria:";
             // 
             // lblImagenUrl
             // 
             this.lblImagenUrl.AutoSize = true;
-            this.lblImagenUrl.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F);
-            this.lblImagenUrl.Location = new System.Drawing.Point(32, 320);
+            this.lblImagenUrl.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblImagenUrl.Location = new System.Drawing.Point(32, 342);
             this.lblImagenUrl.Name = "lblImagenUrl";
-            this.lblImagenUrl.Size = new System.Drawing.Size(75, 16);
+            this.lblImagenUrl.Size = new System.Drawing.Size(83, 18);
             this.lblImagenUrl.TabIndex = 8;
             this.lblImagenUrl.Text = "Imagen Url:";
             // 
             // lblPrecio
             // 
             this.lblPrecio.AutoSize = true;
-            this.lblPrecio.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F);
-            this.lblPrecio.Location = new System.Drawing.Point(32, 391);
+            this.lblPrecio.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblPrecio.Location = new System.Drawing.Point(240, 443);
             this.lblPrecio.Name = "lblPrecio";
-            this.lblPrecio.Size = new System.Drawing.Size(49, 16);
+            this.lblPrecio.Size = new System.Drawing.Size(55, 18);
             this.lblPrecio.TabIndex = 9;
             this.lblPrecio.Text = "Precio:";
             // 
             // lblId2
             // 
-            this.lblId2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F);
+            this.lblId2.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblId2.Location = new System.Drawing.Point(135, 73);
             this.lblId2.Name = "lblId2";
-            this.lblId2.Size = new System.Drawing.Size(179, 13);
+            this.lblId2.Size = new System.Drawing.Size(179, 25);
             this.lblId2.TabIndex = 10;
             this.lblId2.Text = "Id:";
             this.lblId2.Click += new System.EventHandler(this.lblId2_Click);
             // 
             // lblCodigo2
             // 
-            this.lblCodigo2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F);
+            this.lblCodigo2.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblCodigo2.Location = new System.Drawing.Point(135, 115);
             this.lblCodigo2.Name = "lblCodigo2";
-            this.lblCodigo2.Size = new System.Drawing.Size(179, 13);
+            this.lblCodigo2.Size = new System.Drawing.Size(179, 28);
             this.lblCodigo2.TabIndex = 11;
             this.lblCodigo2.Text = "Id:";
             this.lblCodigo2.Click += new System.EventHandler(this.lblCodigo2_Click);
             // 
             // lblNombre2
             // 
-            this.lblNombre2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F);
+            this.lblNombre2.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblNombre2.Location = new System.Drawing.Point(135, 158);
             this.lblNombre2.Name = "lblNombre2";
-            this.lblNombre2.Size = new System.Drawing.Size(179, 13);
+            this.lblNombre2.Size = new System.Drawing.Size(179, 29);
             this.lblNombre2.TabIndex = 12;
             this.lblNombre2.Text = "Id:";
             this.lblNombre2.Click += new System.EventHandler(this.lblNombre2_Click);
             // 
             // lblDescripcion2
             // 
-            this.lblDescripcion2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F);
+            this.lblDescripcion2.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblDescripcion2.Location = new System.Drawing.Point(135, 199);
             this.lblDescripcion2.Name = "lblDescripcion2";
-            this.lblDescripcion2.Size = new System.Drawing.Size(179, 13);
+            this.lblDescripcion2.Size = new System.Drawing.Size(179, 25);
             this.lblDescripcion2.TabIndex = 13;
             this.lblDescripcion2.Text = "Id:";
             this.lblDescripcion2.Click += new System.EventHandler(this.lblDescripcion2_Click);
             // 
             // lblMarca2
             // 
-            this.lblMarca2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F);
+            this.lblMarca2.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblMarca2.Location = new System.Drawing.Point(135, 241);
             this.lblMarca2.Name = "lblMarca2";
-            this.lblMarca2.Size = new System.Drawing.Size(179, 13);
+            this.lblMarca2.Size = new System.Drawing.Size(179, 37);
             this.lblMarca2.TabIndex = 14;
             this.lblMarca2.Text = "Id:";
             // 
             // lblCategoria2
             // 
-            this.lblCategoria2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F);
-            this.lblCategoria2.Location = new System.Drawing.Point(135, 278);
+            this.lblCategoria2.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblCategoria2.Location = new System.Drawing.Point(135, 287);
             this.lblCategoria2.Name = "lblCategoria2";
-            this.lblCategoria2.Size = new System.Drawing.Size(179, 13);
+            this.lblCategoria2.Size = new System.Drawing.Size(179, 33);
             this.lblCategoria2.TabIndex = 15;
             this.lblCategoria2.Text = "Id:";
             // 
             // lblImagenUrl2
             // 
-            this.lblImagenUrl2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F);
-            this.lblImagenUrl2.Location = new System.Drawing.Point(135, 320);
+            this.lblImagenUrl2.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblImagenUrl2.Location = new System.Drawing.Point(135, 342);
             this.lblImagenUrl2.Name = "lblImagenUrl2";
-            this.lblImagenUrl2.Size = new System.Drawing.Size(458, 60);
+            this.lblImagenUrl2.Size = new System.Drawing.Size(458, 79);
             this.lblImagenUrl2.TabIndex = 16;
             this.lblImagenUrl2.Text = "Id:";
             // 
             // lblPrecio2
             // 
-            this.lblPrecio2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F);
-            this.lblPrecio2.Location = new System.Drawing.Point(135, 391);
+            this.lblPrecio2.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblPrecio2.Location = new System.Drawing.Point(343, 443);
             this.lblPrecio2.Name = "lblPrecio2";
-            this.lblPrecio2.Size = new System.Drawing.Size(179, 13);
+            this.lblPrecio2.Size = new System.Drawing.Size(179, 30);
             this.lblPrecio2.TabIndex = 17;
             this.lblPrecio2.Text = "Id:";
             // 
@@ -240,7 +240,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.SystemColors.InactiveCaption;
+            this.BackColor = System.Drawing.Color.LightGray;
             this.ClientSize = new System.Drawing.Size(650, 503);
             this.Controls.Add(this.pbxImagenUrl);
             this.Controls.Add(this.lblPrecio2);
